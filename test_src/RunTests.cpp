@@ -1,11 +1,48 @@
 #include <gtest/gtest.h>
 #include "Enemy.h"
+#include "Slingshot.h"
 
 /// <summary>
 ///Taken from the GoogleTest primer. 
 /// </summary>
+/// The fixture for testing class Slingshot.
+class SlingshotTest : public testing::Test {
+public:
+    std::unique_ptr<Slingshot> slingshot;
+protected:
+    // You can remove any or all of the following functions if their bodies would
+    // be empty.
 
-// The fixture for testing class Foo.
+
+
+    SlingshotTest() {
+        // You can do set-up work for each test here.
+
+    }
+
+    ~SlingshotTest() override {
+        // You can do clean-up work that doesn't throw exceptions here.
+    }
+
+    // If the constructor and destructor are not enough for setting up
+    // and cleaning up each test, you can define the following methods:
+
+    void SetUp() override {
+        // Code here will be called immediately after the constructor (right
+        // before each test).
+        slingshot = std::make_unique<Slingshot>(); // All enemnies in this test suite start with 50 HP.
+
+    }
+
+    void TearDown() override {
+        // Code here will be called immediately after each test (right
+        // before the destructor).
+    }
+
+
+};
+
+// The fixture for testing class Enemy.
 class EnemyTest : public testing::Test {
 public:
     std::unique_ptr<Enemy> enemy;
@@ -101,6 +138,54 @@ TEST(Enemy, Fith_test_fatal) {
 TEST(Enemy, Sixth_test_fatal) {
     Enemy e(100);
     ASSERT_LE(e.getHealth(), 100);
+}
+
+TEST_F(EnemyTest, First_test) {
+    EXPECT_EQ(enemy->getHealth(), 50);
+}
+
+TEST_F(EnemyTest, Second_test) {
+    EXPECT_NE(enemy->getHealth(), 51);
+}
+
+TEST_F(EnemyTest, Third_test) {
+    EXPECT_GT(enemy->getHealth(), 49);
+}
+
+TEST_F(EnemyTest, Fourth_test) {
+    EXPECT_GE(enemy->getHealth(), 50);
+}
+
+TEST_F(EnemyTest, Fith_test) {
+    EXPECT_LT(enemy->getHealth(), 51);
+}
+
+TEST_F(EnemyTest, Sixth_test) {
+    EXPECT_LE(enemy->getHealth(), 50);
+}
+
+TEST_F(EnemyTest, First_test_fatal) {
+    ASSERT_EQ(enemy->getHealth(), 50);
+}
+
+TEST_F(EnemyTest, Second_test_fatal) {
+    ASSERT_NE(enemy->getHealth(), 51);
+}
+
+TEST_F(EnemyTest, Third_test_fatal) {
+    ASSERT_GT(enemy->getHealth(), 49);
+}
+
+TEST_F(EnemyTest, Fourth_test_fatal) {
+    ASSERT_GE(enemy->getHealth(), 50);
+}
+
+TEST_F(EnemyTest, Fith_test_fatal) {
+    ASSERT_LT(enemy->getHealth(), 51);
+}
+
+TEST_F(EnemyTest, Sixth_test_fatal) {
+    ASSERT_LE(enemy->getHealth(), 50);
 }
 
 TEST_F(EnemyTest, LethalDamagePopsPig) {
