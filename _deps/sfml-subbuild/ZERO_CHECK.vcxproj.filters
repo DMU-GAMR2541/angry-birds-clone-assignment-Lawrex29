@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\sfml-subbuild\CMakeFiles\6aa36fd8267dbc331f4341a81bd068ee\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{57F3711A-8C3A-3E81-A2B9-81931DB02E79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

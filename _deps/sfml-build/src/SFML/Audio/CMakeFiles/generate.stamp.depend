@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
+H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-src/cmake/Modules/FindOpenAL.cmake
+H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-src/cmake/Modules/FindVORBIS.cmake
+H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt

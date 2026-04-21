@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_broad_phase.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_chain_shape.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_circle_shape.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_collide_circle.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_collide_edge.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_collide_polygon.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_collision.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_distance.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_dynamic_tree.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_edge_shape.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_polygon_shape.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\collision\b2_time_of_impact.cpp">
+      <Filter>src\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\common\b2_block_allocator.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\common\b2_draw.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\common\b2_math.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\common\b2_settings.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\common\b2_stack_allocator.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\common\b2_timer.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_body.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_chain_circle_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_chain_polygon_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_circle_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_contact_manager.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_contact_solver.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_distance_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_edge_circle_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_edge_polygon_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_fixture.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_friction_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_gear_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_island.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_motor_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_mouse_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_polygon_circle_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_polygon_contact.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_prismatic_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_pulley_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_revolute_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_weld_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_wheel_joint.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_world.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_world_callbacks.cpp">
+      <Filter>src\dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\rope\b2_rope.cpp">
+      <Filter>src\rope</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_chain_circle_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_chain_polygon_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_circle_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_contact_solver.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_edge_circle_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_edge_polygon_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_island.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_polygon_circle_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\dynamics\b2_polygon_contact.h">
+      <Filter>src\dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_api.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_block_allocator.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_body.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_broad_phase.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_chain_shape.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_circle_shape.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_collision.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_common.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_contact.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_contact_manager.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_distance.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_distance_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_draw.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_dynamic_tree.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_edge_shape.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_fixture.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_friction_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_gear_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_growable_stack.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_math.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_motor_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_mouse_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_polygon_shape.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_prismatic_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_pulley_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_revolute_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_rope.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_settings.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_shape.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_stack_allocator.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_time_of_impact.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_timer.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_time_step.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_types.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_weld_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_wheel_joint.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_world.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\b2_world_callbacks.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\include\box2d\box2d.h">
+      <Filter>include\box2d</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\_deps\box2d-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{795B1E55-2B5D-35CB-BD55-871D56453E38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\box2d">
+      <UniqueIdentifier>{C3827DD0-AD61-3983-915B-88D68295F6A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0D80FF3D-CFE5-3B72-BC77-AC091A8507FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\collision">
+      <UniqueIdentifier>{674862E6-DCB9-3484-A000-DB7D257254F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{F4556D25-06BB-39F3-8CE1-BAB4697EDD12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dynamics">
+      <UniqueIdentifier>{1B8D9B7F-A621-37DF-8A49-0FE4721B0298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rope">
+      <UniqueIdentifier>{CD0C320C-639C-3BA9-B5E9-B15B241F7FF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

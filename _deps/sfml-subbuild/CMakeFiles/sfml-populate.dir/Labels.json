@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/6aa36fd8267dbc331f4341a81bd068ee/sfml-populate.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/04a9b8011f300124e8764aba3c9bcef5/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-build.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-download.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-install.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-test.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/_deps/sfml-subbuild/CMakeFiles/4836eec6b80cc41e76b733dc56a7770b/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}
