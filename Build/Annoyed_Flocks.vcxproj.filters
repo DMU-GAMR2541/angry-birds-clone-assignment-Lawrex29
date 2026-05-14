@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\Pig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\SlingShot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\Pig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\SlingShot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\include\StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B0C6DD06-53B5-3857-9799-3CD42A4F981B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3F431FD5-6B58-33A8-85F6-DF0A248AB120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

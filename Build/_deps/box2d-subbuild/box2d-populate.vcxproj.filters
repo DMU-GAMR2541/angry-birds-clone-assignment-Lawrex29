@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\2652444f09e5a3c4f01f2a817147b460\box2d-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\684388eaa7ffeeb9d5dce5fae050fa0b\box2d-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\76e1c3fcdce6800e48daddf2a5d5fbc2\box2d-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-subbuild\CMakeFiles\box2d-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0BEC5C0D-0C8B-33FF-888B-3734C84010AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

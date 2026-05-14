@@ -1,6 +1,10 @@
 #include <SFML/Graphics.hpp>
 #include <box2d/box2d.h>
 #include <iostream>
+#include "Bird.h" 
+#include "SlingShot.h"
+#include "Pig.h"
+#include "Block.h"
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -18,6 +22,12 @@ int main() {
     b2Vec2 b2_gravity(0.0f, 9.8f); // Earth-like gravity
     b2World world(b2_gravity);
 
+    //Creating objects
+	Slingshot slingshot(sf::Vector2f(150.0f, 500.0f), 100.0f);
+	Bird bird(sf::Vector2f(100.0f, 500.0f), 0.0f);
+	Pig pig(sf::Vector2f(700.0f, 500.0f), 0.0f);
+	Block block(sf::Vector2f(550.0f, 500.0f), 0.0f, Block::BlockType::Wood);
+	
     //Setup ground for the circle to move / bounce on.
     //Needs to have a body definition and a body. We use a raw pointer for the b2Body as Box2d does the management itself.
     //A body can be defined as having a position, velocity, and mass. 
@@ -98,8 +108,26 @@ int main() {
 
             // INPUT HANDLING: Press SPACE to launch
             if (event.type == sf::Event::KeyPressed) {
+                if (event.key.code == sf::Keyboard::R) {
+					slingshot.loadBird("Red");
+                    }
+                if (event.key.code == sf::Keyboard::B) {
+                    slingshot.loadBird("Blue");
+                }
+                if (event.key.code == sf::Keyboard::Y) {
+                    slingshot.loadBird("Yellow");
+                }
                 if (event.key.code == sf::Keyboard::Space) {
                     // Reset position of the ball so that it can be fired again from its original poisition.
+
+					//Slingshot fires
+					slingshot.pullBack(50); // Pull back the slingshot with a tension of 50
+					slingshot.release();
+
+
+
+
+
                     b2_ballBody->SetTransform(b2Vec2(100.0f / SCALE, 500.0f / SCALE), 0);
                     b2_ballBody->SetLinearVelocity(b2Vec2(0, 0));
                     b2_ballBody->SetAngularVelocity(0);
@@ -135,6 +163,10 @@ int main() {
         window.draw(sf_wallVisual);
         window.draw(sf_plankVisual);
         window.draw(sf_ballVisual);
+        slingshot.draw(window);
+		bird.draw(window);
+		pig.draw(window);
+		block.draw(window);
 
         window.display();
     }

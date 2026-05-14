@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/21c8f7006037ea6ed8d5398e76d985fc/sfml-populate.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/b613acbf3fc0711f17f9eb77ee03ce68/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-build.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-download.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-install.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-test.rule"
+		},
+		{
+			"file" : "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/d37f12b110dd699e48dbf41418804f1f/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

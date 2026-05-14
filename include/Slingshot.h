@@ -1,32 +1,32 @@
 #pragma once
-#include <string>
+#include "StaticObject.h"
+#include <string_view>
 
-/// <summary>
-/// A simple class that you can use to begin the testing process using Googletest.
-/// </summary>
-class Slingshot {
-private:
-    /// <summary>
-    /// Variables that define the slingshot.
-    /// </summary>
-    int i_tension;
-    std::string str_birdType;
-    const int MAX_TENSION = 100;
-
+class Slingshot : public StaticObject
+{
 public:
-    Slingshot() : i_tension(0), str_birdType("Red") {}
+    // Sets slingshot to be static object with position and rotation
+    Slingshot(const sf::Vector2f& position = {}, float rotation = 0.f);
+    ~Slingshot() override = default;
 
-    //Functions to test.
-    void loadBird(std::string str_type) { str_birdType = str_type; }
+    // Gets object type, returns slingshot if not overidden
+    std::string_view getType() const noexcept override { return "Slingshot"; }
 
-    bool pullBack(int amount) {
-        if (amount < 0) return false;
-        i_tension = (i_tension + amount > MAX_TENSION) ? MAX_TENSION : i_tension + amount;
-        return true;
-    }
+    // Functions to load a bird, pull back the slingshot and release it, to get the current tension and loaded bird type.
+    void loadBird(std::string_view birdType);
+    bool pullBack(int amount);
+    void release();
 
-    int getTension() const { return i_tension; }
-    std::string getBirdType() const { return str_birdType; }
+    int getTension() const noexcept;
+    std::string_view getLoadedBirdType() const noexcept;
 
-    void release() { i_tension = 0; }
+    //
+    void update(float dt) override;
+    void draw(sf::RenderTarget& target) const override;
+
+    //Intitial values for slingshot
+private:
+    float m_tension{ 10.0f };
+    std::string_view m_loadedBirdType{ "Red" };
+    static constexpr int MAX_TENSION = 100;
 };
