@@ -52,6 +52,8 @@ void GameObject::setBody(b2Body* body) noexcept
             fixture->SetRestitution(m_restitution);
             fixture->SetFriction(m_friction);
         }
+
+        m_body->GetUserData().pointer = reinterpret_cast<uintptr_t>(this);
     }
 }
 
