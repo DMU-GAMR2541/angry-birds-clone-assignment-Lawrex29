@@ -7,6 +7,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "Annoyed_Flocks");
     window.setFramerateLimit(60);
 
+    //Needed for commit message about force push
     //Box2D works in meters. SFML works in pixels.
     const float SCALE = 30.0f;
 
@@ -20,6 +21,7 @@ int main() {
     //Setup ground for the circle to move / bounce on.
     //Needs to have a body definition and a body. We use a raw pointer for the b2Body as Box2d does the management itself.
     //A body can be defined as having a position, velocity, and mass. 
+
     b2BodyDef b2_groundBodyDef;
     b2_groundBodyDef.position.Set(400.0f / SCALE, 590.0f / SCALE);
     b2Body* b2_groundBody = world.CreateBody(&b2_groundBodyDef);
