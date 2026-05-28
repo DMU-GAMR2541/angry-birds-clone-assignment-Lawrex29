@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
+# file LICENSE.rst or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.30.1)
+cmake_minimum_required(VERSION 4.2.5)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -20,8 +20,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "FALSE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip"
-                    SOURCE_DIR          "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/googletest-src"
-                    BINARY_DIR          "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/googletest-build"
+                    SOURCE_DIR          "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/googletest-src"
+                    BINARY_DIR          "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

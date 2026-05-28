@@ -1,4 +1,4 @@
-# Install script for directory: H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-src/extern/sajson
+# Install script for directory: C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-src/extern/sajson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,3 +32,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-build/extern/sajson/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

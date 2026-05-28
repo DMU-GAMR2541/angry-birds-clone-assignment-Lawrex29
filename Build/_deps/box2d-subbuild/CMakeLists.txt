@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
+# file LICENSE.rst or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 3.30.1)
+cmake_minimum_required(VERSION 4.2.5)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -19,17 +19,17 @@ project(box2d-populate NONE)
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
 set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(GIT_VERSION_STRING [==[2.53.0.windows.3]==])
+set(Git_VERSION [==[2.52.0.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.53.0.windows.3]==]
+  [==[C:/Program Files/Git/cmd/git.exe;2.52.0.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(box2d-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/erincatto/box2d.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v2.4.1"
-                    SOURCE_DIR          "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-src"
-                    BINARY_DIR          "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-build"
+                    SOURCE_DIR          "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-src"
+                    BINARY_DIR          "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/box2d-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

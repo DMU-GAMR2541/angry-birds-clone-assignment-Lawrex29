@@ -1,93 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\context.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\context.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\init.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\init.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\input.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\input.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\monitor.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\monitor.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\vulkan.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\vulkan.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\window.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\window.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_init.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_init.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_monitor.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_monitor.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_time.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_time.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_thread.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_thread.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_window.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_window.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\wgl_context.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\wgl_context.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\egl_context.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\egl_context.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.c">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\internal.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\internal.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\mappings.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\mappings.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3.h">
       <Filter>include\GLFW</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3native.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3native.h">
       <Filter>include\GLFW</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_platform.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_platform.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\wgl_context.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\wgl_context.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\egl_context.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\egl_context.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.h">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\box2d-src\extern\glfw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{A3564CDC-E31E-32F6-9931-449C0E992329}</UniqueIdentifier>
+      <UniqueIdentifier>{8D399B42-9A98-393F-9515-29E89E924553}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\GLFW">
-      <UniqueIdentifier>{4BE05B67-06BB-322F-BF40-AE6FA9C1046B}</UniqueIdentifier>
+      <UniqueIdentifier>{A861B2AB-1B7D-3846-966B-6969EA006F14}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{5000E683-0048-3847-B962-BDF3B30DC3F3}</UniqueIdentifier>
+      <UniqueIdentifier>{F3C2B4EE-68C5-3078-904D-B94B975042A7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

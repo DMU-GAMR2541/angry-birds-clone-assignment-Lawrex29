@@ -1,131 +1,131 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\BlendMode.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Color.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Font.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Glsl.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLCheck.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLExtensions.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Image.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\ImageLoader.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderStates.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTexture.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTarget.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderWindow.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Shader.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Texture.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\TextureSaver.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Transform.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Transformable.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\View.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Vertex.cpp" />
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Shape.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\BlendMode.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Color.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Font.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Glsl.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLCheck.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLExtensions.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Image.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\ImageLoader.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderStates.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTexture.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderWindow.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Shader.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Texture.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\TextureSaver.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Transform.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Transformable.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\View.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Vertex.cpp" />
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Shape.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\CircleShape.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\CircleShape.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RectangleShape.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RectangleShape.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\ConvexShape.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\ConvexShape.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Sprite.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Sprite.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Text.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\Text.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\VertexArray.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\VertexArray.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\VertexBuffer.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\VertexBuffer.cpp">
       <Filter>drawables</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImpl.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImpl.cpp">
       <Filter>render texture</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplFBO.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplFBO.cpp">
       <Filter>render texture</Filter>
     </ClCompile>
-    <ClCompile Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplDefault.cpp">
+    <ClCompile Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplDefault.cpp">
       <Filter>render texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\BlendMode.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Color.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Export.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Font.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Glsl.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Glsl.inl" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Glyph.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLCheck.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLExtensions.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Image.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\ImageLoader.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\PrimitiveType.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Rect.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Rect.inl" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderStates.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderTexture.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderTarget.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderWindow.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Shader.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Texture.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\TextureSaver.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Transform.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Transformable.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\View.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Vertex.hpp" />
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Drawable.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\BlendMode.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Color.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Export.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Font.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Glsl.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Glsl.inl" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Glyph.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLCheck.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\GLExtensions.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Image.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\ImageLoader.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Rect.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Rect.inl" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderStates.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderTexture.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderTarget.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RenderWindow.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Shader.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Texture.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\TextureSaver.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Transform.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Transformable.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\View.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Vertex.hpp" />
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Drawable.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Shape.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Shape.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\CircleShape.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\CircleShape.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RectangleShape.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\RectangleShape.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\ConvexShape.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\ConvexShape.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Sprite.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Sprite.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Text.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\Text.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\VertexArray.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\VertexArray.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\VertexBuffer.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\include\SFML\Graphics\VertexBuffer.hpp">
       <Filter>drawables</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImpl.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImpl.hpp">
       <Filter>render texture</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplFBO.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplFBO.hpp">
       <Filter>render texture</Filter>
     </ClInclude>
-    <ClInclude Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplDefault.hpp">
+    <ClInclude Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\RenderTextureImplDefault.hpp">
       <Filter>render texture</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\src\SFML\Graphics\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="drawables">
-      <UniqueIdentifier>{7C001C32-35AA-32A6-8DA9-B7465DEFA98C}</UniqueIdentifier>
+      <UniqueIdentifier>{41A84F27-40E8-3DDA-A367-79C8BF0ED4C7}</UniqueIdentifier>
     </Filter>
     <Filter Include="render texture">
-      <UniqueIdentifier>{E676AC67-FFB9-32E0-87AE-4448F5C8883C}</UniqueIdentifier>
+      <UniqueIdentifier>{E26E4088-4E8C-33A9-BF67-8E01BCA710FE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

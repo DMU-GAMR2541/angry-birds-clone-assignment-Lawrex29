@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-download.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-update.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-patch.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-configure.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-build.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-install.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\d37f12b110dd699e48dbf41418804f1f\sfml-populate-test.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\67f1e3d586323a9bd61719d9de8da219\sfml-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\b613acbf3fc0711f17f9eb77ee03ce68\sfml-populate-complete.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\c984cff3707fd0884da1f86c965007ac\sfml-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\21c8f7006037ea6ed8d5398e76d985fc\sfml-populate.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\626dd490ba9830e381e08cb0bb79ca89\sfml-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+    <None Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C40C0C73-793F-381E-8616-931E562B5FB6}</UniqueIdentifier>
+      <UniqueIdentifier>{7D11494B-BC64-364A-A1B8-5EA8137F5462}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

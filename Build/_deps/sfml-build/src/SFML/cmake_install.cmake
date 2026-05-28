@@ -1,4 +1,4 @@
-# Install script for directory: H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/src/SFML
+# Install script for directory: C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
-  include("H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Main/cmake_install.cmake")
-  include("H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
-  include("H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
-  include("H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
-  include("H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/src/SFML/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

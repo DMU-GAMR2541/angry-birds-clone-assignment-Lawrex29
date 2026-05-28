@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FB4A358A-421E-3742-AC26-EDADAA5E89CD}</ProjectGuid>
+    <ProjectGuid>{BD1C8CF4-6BCD-33F1-B2D7-00D8EA23C369}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -36,22 +36,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29" "-BH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29" "-BC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29" "-BH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29" "-BC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29" "-BH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29" "-BC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29" "-BH:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "H:/Year 2/Production level C++/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29" "-BC:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build" --check-stamp-file "C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,42 +159,43 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\Config.cmake;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\ZERO_CHECK.vcxproj">
-      <Project>{BA75AF46-E93F-3142-9EC5-9D0A25BED661}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\ZERO_CHECK.vcxproj">
+      <Project>{4C21F3A9-52C3-3E38-AFD6-8973AACBEDAE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{0BFE5263-6621-357C-82CD-578402B76488}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{37D933D9-742C-3821-9978-C56297A1ED40}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{B71CC713-86C8-3C74-9E07-B5D4B139F94B}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{B98EB302-3FCC-3573-B7FA-812EFA3095CD}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
-      <Project>{E0D8FD91-DCF4-36F4-A315-988C366EB34B}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{F87A4153-5C0F-3DFE-9BFB-470C735184EB}</Project>
       <Name>sfml-main</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{89C83F3B-52B0-3126-98CE-DE4BA0B1342A}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{9481CFE9-077C-37F8-9608-8B10A9F4338B}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{7A00C22B-B969-32BE-BD66-91AB17F21F56}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{E485F12C-D70A-3A76-A4CD-2E2FBB7A28BC}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{CE5F1EDD-E886-33AE-BE22-6995263F6165}</Project>
+    <ProjectReference Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{6C26FFCD-7A7F-3499-9736-D6D4FC20639F}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

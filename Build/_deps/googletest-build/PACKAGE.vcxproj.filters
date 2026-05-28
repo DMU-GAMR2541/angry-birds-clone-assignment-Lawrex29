@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\Year 2\Production level C++\angry-birds-clone-assignment-Lawrex29\Build\CMakeFiles\6570907ee6ac19c7969be6d96ef1d1a7\PACKAGE_force.rule">
+    <CustomBuild Include="C:\Users\Joe\Programming\C++\Production level\angry-birds-clone-assignment-Lawrex29\Build\CMakeFiles\776aa456168eae89fdfe0c875fcd07f5\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4399CA66-D491-364B-8CB7-D2AC49A46FCE}</UniqueIdentifier>
+      <UniqueIdentifier>{F4147DFC-F506-3B5F-B654-87F2D3E97BEA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
