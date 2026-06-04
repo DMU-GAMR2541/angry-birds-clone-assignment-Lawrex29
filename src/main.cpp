@@ -1,10 +1,19 @@
+#include <thread>
+#include <mutex>
 #include <SFML/Graphics.hpp>
 #include <box2d/box2d.h>
 #include <iostream>
-#include "Bird.h" 
+#include "Bird.h"
 #include "SlingShot.h"
 #include "Pig.h"
 #include "Block.h"
+#include "PigPool.h"
+#include "StartScreen.h"
+#include "UI.h"
+#include <atomic>
+#include <chrono>
+#include <vector>
+#include <unordered_map>
 
 //Listener so objects will call oncollision when colliding
 class ContactListener : public b2ContactListener
@@ -25,16 +34,66 @@ class ContactListener : public b2ContactListener
     }
 };
 
+// one thread for physics
+void physicthread(b2World* world, Bird* bird, PigPool* pigPool, std::atomic<bool>& run, std::mutex& physics)
+{
+    const float PHYSICS_TIMESTEP = 1.0f / 60.0f;
+    auto previousTime = std::chrono::high_resolution_clock::now();
+
+    while (run) {
+        auto currentTime = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<float> deltaTime = currentTime - previousTime;
+
+        if (deltaTime.count() >= PHYSICS_TIMESTEP) {
+            {
+                std::lock_guard<std::mutex> lock(physics);
+                world->Step(PHYSICS_TIMESTEP, 8, 3);
+            }
+
+            {
+                std::lock_guard<std::mutex> lock(physics);
+                bird->update(PHYSICS_TIMESTEP);
+                pigPool->updateActive(PHYSICS_TIMESTEP);
+                // Return killed pigs to pool
+                pigPool->releaseDestroyed();
+            }
+
+            previousTime = currentTime;
+        }
+        else {
+            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+        }
+    }
+}
+
 int main() {
     // --- 1. WINDOW SETUP ---
     sf::RenderWindow window(sf::VideoMode(800, 600), "Annoyed_Flocks");
     window.setFramerateLimit(60);
 
-    //Needed for commit message about force push
+    // --- 2. START SCREEN (threaded loading + progress bar) ---
+    {
+        StartScreen startScreen(window);
+        if (!startScreen.run())
+            return 0; // Window closed on start screen
+    }
+
+    // Stl contianer
+    std::vector<std::string> birdHistory;
+
+    // display colllours using an associative containder
+    std::unordered_map<std::string, sf::Color> birdColours = {
+        { "Red",    sf::Color(200, 30,  30)  },
+        { "Blue",   sf::Color(30,  100, 200) },
+        { "Yellow", sf::Color(230, 200, 20)  }
+    };
+
+    //Show UI
+    UI gameUI;
 
     //Conversion for Box2d and SFML
     const float SCALE = 30.0f;
-    const float PI = 3.1415927;
+    const float PI = 3.1415927f;
 
     //setup world.
     b2Vec2 b2_gravity(0.0f, 9.8f); // Earth-like gravity
@@ -46,8 +105,14 @@ int main() {
     //Creating objects
     Slingshot slingshot(sf::Vector2f(150.0f, 470.0f), 0.0f);
     Bird bird(sf::Vector2f(150.0f, 450.0f), 0.0f);
-    Pig pig(sf::Vector2f(680.0f, 555.0f), 0.0f, 1.0f, 100);
     Block block(sf::Vector2f(600.0f, 557.0f), 0.0f, Block::BlockType::Wood);
+
+    // PigPool manager
+    PigPool pigPool(world, 5, 100);
+
+    // Sets the starting pigs on screen
+    pigPool.acquire(sf::Vector2f(680.0f, 555.0f));
+    pigPool.acquire(sf::Vector2f(720.0f, 555.0f));
 
     //Setup ground for the circle to move / bounce on. 
 
@@ -84,7 +149,7 @@ int main() {
 
 
     b2PolygonShape b2_blockBox;
-    b2_blockBox.SetAsBox(20.0f / SCALE, 20.0f / SCALE); 
+    b2_blockBox.SetAsBox(20.0f / SCALE, 20.0f / SCALE);
 
     b2FixtureDef b2_blockFixture;
     b2_blockFixture.shape = &b2_blockBox;
@@ -93,24 +158,6 @@ int main() {
 
     block.setBody(b2_blockBody);
 
-    //Box2d for pig
-    b2BodyDef b2_pigDef;
-    b2_pigDef.type = b2_dynamicBody;
-    b2_pigDef.position.Set(680.0f / SCALE, 555.0f / SCALE);
-    b2Body* b2_pigBody = world.CreateBody(&b2_pigDef);
-
-    b2CircleShape b2_pigCircle;
-    b2_pigCircle.m_radius = 12.0f / SCALE; 
-
-    b2FixtureDef b2_pigFixture;
-    b2_pigFixture.shape = &b2_pigCircle;
-    b2_pigFixture.density = 1.2f;
-    b2_pigFixture.restitution = 0.1f;
-    b2_pigFixture.friction = 0.6f;
-    b2_pigBody->CreateFixture(&b2_pigFixture);
-
-    pig.setBody(b2_pigBody);
-
     //Box2d for bird
     b2BodyDef b2_birdDef;
     b2_birdDef.type = b2_dynamicBody;
@@ -118,7 +165,7 @@ int main() {
     b2Body* b2_birdBody = world.CreateBody(&b2_birdDef);
 
     b2CircleShape b2_birdCircle;
-    b2_birdCircle.m_radius = 10.0f / SCALE; 
+    b2_birdCircle.m_radius = 10.0f / SCALE;
 
     b2FixtureDef b2_birdFixture;
     b2_birdFixture.shape = &b2_birdCircle;
@@ -130,10 +177,17 @@ int main() {
     bird.setBody(b2_birdBody);
     bird.setBirdType(Bird::BirdType::Red);
 
-    // --- 7. MAIN LOOP ---
+    //Crete threads
+    std::atomic<bool> physicsRunning(true);
+    std::mutex physicsMutex;
+
+    // Calls thread for physics
+    std::thread physics(physicthread, &world, &bird, &pigPool,
+        std::ref(physicsRunning), std::ref(physicsMutex));
+
+    // Thread to render objects
     while (window.isOpen()) {
         sf::Event event;
-
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 window.close();
@@ -150,13 +204,16 @@ int main() {
                     slingshot.loadBird("Blue");
                     bird.setBirdType(Bird::BirdType::Blue);
                 }
-				//Yellow is slow and strong
+                //Yellow is slow and strong
                 if (event.key.code == sf::Keyboard::Y) {
                     slingshot.loadBird("Yellow");
                     bird.setBirdType(Bird::BirdType::Yellow);
                 }
                 //Fires the bird from slingshot, provides console commands to show pigs remaining health
                 if (event.key.code == sf::Keyboard::Space) {
+                    // physics locked while rendering updated bird
+                    std::lock_guard<std::mutex> lock(physicsMutex);
+
                     b2_birdBody->SetTransform(b2Vec2(150.0f / SCALE, 450.0f / SCALE), 0);
                     b2_birdBody->SetLinearVelocity(b2Vec2(0, 0));
                     b2_birdBody->SetAngularVelocity(0);
@@ -174,33 +231,51 @@ int main() {
                     b2_birdBody->ApplyLinearImpulse(b2Vec2(impulseX, impulseY), b2_birdBody->GetWorldCenter(), true);
 
                     std::cout << "Firing!!!!" << std::endl;
+
+                    // STL container ton record bird history
+                    std::string typeName = (bird.getBirdType() == Bird::BirdType::Red) ? "Red"
+                        : (bird.getBirdType() == Bird::BirdType::Blue) ? "Blue"
+                        : "Yellow";
+                    birdHistory.push_back(typeName);
+                    std::cout << "Birds fired this session: " << birdHistory.size() << std::endl;
+                    auto colourIt = birdColours.find(typeName);
+                    if (colourIt != birdColours.end())
+                        std::cout << "Bird colour confirmed in map: " << typeName << std::endl;
+
+                    // Update game UI label
+                    gameUI.setLabel("lastBird", typeName);
                 }
             }
         }
 
-        // Update Physics
-        world.Step(1.0f / 60.0f, 8, 3);
+        // rendering thread
+        {
+            std::lock_guard<std::mutex> lock(physicsMutex);
+            //Static doesn't move so is only in render
+            sf_groundVisual.setPosition(b2_groundBody->GetPosition().x * SCALE,
+                b2_groundBody->GetPosition().y * SCALE);
+        }
 
-        //All of the visuals needs to be synced with the physics.
-        bird.update(1.0f / 60.0f);
-        pig.update(1.0f / 60.0f);
-
-        //Static objects usually don't move, but we set the position once.
-        sf_groundVisual.setPosition(b2_groundBody->GetPosition().x * SCALE, b2_groundBody->GetPosition().y * SCALE);
-
-        //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
         window.clear(sf::Color(135, 206, 235)); // Sky Blue
 
         window.draw(sf_groundVisual);
         slingshot.draw(window);
-        bird.draw(window);
-        if (!pig.isDestroyed())
-            pig.draw(window);
+
+        // Threads do not render while being drawn
+        {
+            std::lock_guard<std::mutex> lock(physicsMutex);
+            bird.draw(window);
+            pigPool.drawActive(window);
+        }
+
         if (!block.isDestroyed())
             block.draw(window);
 
         window.display();
     }
+    // pauses and joins physics thread to the main thread
+    physicsRunning = false;
+    physics.join();
 
     return 0;
 }

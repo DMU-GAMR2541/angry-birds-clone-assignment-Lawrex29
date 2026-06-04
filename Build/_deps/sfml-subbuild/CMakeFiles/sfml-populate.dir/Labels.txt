@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/626dd490ba9830e381e08cb0bb79ca89/sfml-populate.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/c984cff3707fd0884da1f86c965007ac/sfml-populate-complete.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-build.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-configure.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-download.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-install.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-mkdir.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-patch.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-test.rule
+C:/Users/Joe/Programming/C++/Production level/angry-birds-clone-assignment-Lawrex29/Build/_deps/sfml-subbuild/CMakeFiles/67f1e3d586323a9bd61719d9de8da219/sfml-populate-update.rule

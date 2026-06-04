@@ -5,14 +5,14 @@
 
 const float SCALE = 30.0f;
 
-//Constructor to set position, rotation, mass and health
+// Constructor to set position, rotation, mass and health
 Pig::Pig(const sf::Vector2f& position, float rotation, float mass, int initialHealth)
-    : DynamicObject(position, rotation, mass), m_health(initialHealth), m_isDestroyed(false) //Uses parent constructor to set position, rotation and mass. Helath and is destroyed specific to pig
+    : DynamicObject(position, rotation, mass), m_health(initialHealth), m_isDestroyed(false)
 {
     // Pig represented by pink circle
     auto pigShape = std::make_unique<sf::CircleShape>(12.0f);
     pigShape->setOrigin(12.0f, 12.0f);
-    pigShape->setFillColor(sf::Color(255, 192, 203)); // RGB for pink
+    pigShape->setFillColor(sf::Color(255, 192, 203));
     setShape(std::move(pigShape));
 }
 
@@ -28,7 +28,6 @@ void Pig::takeDamage(int damage)
     {
         m_health = 0;
         m_isDestroyed = true;
-
         std::cout << "Pig destroyed! Health: " << m_health << std::endl;
     }
     else
@@ -37,7 +36,6 @@ void Pig::takeDamage(int damage)
     }
 }
 
-// Get and set functions
 int Pig::getHealth() const noexcept
 {
     return m_health;
@@ -48,6 +46,32 @@ bool Pig::isDestroyed() const noexcept
     return m_isDestroyed;
 }
 
+// Resets pig so pool can reuse it
+void Pig::reset(const sf::Vector2f& position, int health)
+{
+    m_health = health;
+    m_isDestroyed = false;
+    m_isActive = true;
+    setPosition(position);
+
+    if (m_body)
+    {
+        m_body->SetLinearVelocity(b2Vec2(0.0f, 0.0f));
+        m_body->SetAngularVelocity(0.0f);
+        m_body->SetAwake(true);
+    }
+}
+
+bool Pig::isActive() const noexcept
+{
+    return m_isActive;
+}
+
+void Pig::setActive(bool active) noexcept
+{
+    m_isActive = active;
+}
+
 // Collision based on colliding object
 void Pig::onCollision(GameObject& other)
 {
@@ -55,11 +79,9 @@ void Pig::onCollision(GameObject& other)
 
     if (otherType == "Bird")
     {
-        // If bird hits pig, pig will take damage based on birds velocity plus a base 20
         Bird* bird = dynamic_cast<Bird*>(&other);
         if (bird)
         {
-            // Damage calculation for birds velocity
             b2Body* birdBody = bird->getBody();
             if (birdBody)
             {
@@ -67,7 +89,6 @@ void Pig::onCollision(GameObject& other)
                 float speed = velocity.Length();
                 int baseDamage = 20;
                 int totalDamage = baseDamage + static_cast<int>(speed * 5.0f);
-
                 takeDamage(totalDamage);
             }
             else
@@ -78,7 +99,6 @@ void Pig::onCollision(GameObject& other)
     }
     else if (otherType == "Block")
     {
-        // Block collides with pig takes lesser damage
         Block* block = dynamic_cast<Block*>(&other);
         if (block && !block->isDestroyed())
         {

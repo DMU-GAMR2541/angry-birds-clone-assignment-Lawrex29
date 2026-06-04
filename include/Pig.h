@@ -17,6 +17,13 @@ public:
     int getHealth() const noexcept;
     bool isDestroyed() const noexcept;
 
+    // resets pig to be used again
+    void reset(const sf::Vector2f& position, int health = 100);
+
+    // Is pig in use by pool
+    bool isActive() const noexcept;
+    void setActive(bool active) noexcept;
+
     //What happens when a bird collides with pig or pig collides with a block
     void onCollision(GameObject& other) override;
 
@@ -24,5 +31,6 @@ public:
 private:
     int m_health;
     bool m_isDestroyed;
+    bool m_isActive{ false }; 
 };
 
